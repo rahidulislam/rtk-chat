@@ -7,7 +7,7 @@ import messagesReducer from "../features/messages/messagesSlice";
 export const store = configureStore({
     reducer: {
         [apiSlice.reducerPath]: apiSlice.reducer,
-        authReducer: authReducer,
+        auth: authReducer,
         conversationsReducer: conversationsReducer,
         messagesReducer: messagesReducer,
     },
