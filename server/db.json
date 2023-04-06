@@ -78,24 +78,6 @@
       ],
       "message": "How are you?",
       "timestamp": 1661976143678
-    },
-    {
-      "id": 3,
-      "participants": "rahiseli@gmail.com-rahiseli@outlook.com.com",
-      "users": [
-        {
-          "email": "rahiseli@gmail.com",
-          "name": "Rahidul Islam",
-          "id": 7
-        },
-        {
-          "email": "rahiseli@outlook.com.com",
-          "name": "Selina Akter",
-          "id": 6
-        }
-      ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
     }
 
   ],

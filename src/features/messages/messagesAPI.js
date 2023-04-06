@@ -4,7 +4,7 @@ export const messagesAPI = apiSlice.injectEndpoints({
     endpoints: (builder)=>({
         getMessages: builder.query({
             query:(id) =>
-            `/conversations?participants_like=${id}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_MESSAGES_PER_PAGE}`,
+            `/messages?participants_like=${id}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_MESSAGES_PER_PAGE}`,
         })
     })
 })
